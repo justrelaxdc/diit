@@ -1,0 +1,19 @@
+# Установка кодировки
+AddDefaultCharset utf-8
+php_value memory_limit 10000M
+# Запрет листинга директории
+Options -Indexes
+
+RewriteEngine on 
+
+# Редирект с поддоменов
+#RewriteCond %{HTTP_HOST} ^domain.ru
+#RewriteRule (.*) http://domain.ru/$1 [R=301,L]
+
+# Настройки ЧПУ
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/sitemap\.xml$
+
+RewriteRule ^(.*)$ index.php?action=$1 [L,QSA]
+ErrorDocument 404 https://my.osmp.ga/OSMP-404.html

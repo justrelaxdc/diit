@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec8dabe2-0072-49d5-9352-2204f4c11688" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/diit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/lib/animations.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/lib/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/lib/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/lib/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Athelas/AthelasItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Athelas/AthelasItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Athelas/AthelasItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Athelas/AthelasItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeue.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeueLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeueLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeueLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeue/HelveticaNeueLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/address-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/address.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/arrow-left-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/arrow-right-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/back1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/background.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/basic-plan-images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/basic-plan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/basic-plan2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg-custom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg-footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg-form.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg-prefooter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg-servise-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg-servise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg-team.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg-test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bottom-info-plans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bottom-info-plans2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bottom-info-plans3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/brand-light2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/brand-white4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/breadcrumbs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/choice-plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/choice-plan2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/choice-plan3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/customer-service.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/decision.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/done.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/done2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/down-select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/drag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/facebook-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/grid-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/grid-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hosting-images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hosting.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hosting2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ibm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/improving.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/instagram4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/like-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/line-plan2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/line-prefoter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/lines_top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/log-out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-tesla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mail-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mini-payments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mini-server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mini-user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/optimised.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/phone-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/php-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/post-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/powerfull.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/radio-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/related-post.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/reliability.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/secured.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/security-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/server-block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/server-block.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/server-block2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/slider-light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/slider-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/slider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/star-plan-images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/star-plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/star-plan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/star-plan2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/team-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vpn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vpn3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/website.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/lib/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/lib/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/lib/css3-animate-it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/lib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/lib/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diit.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1ocf8pmKA4SfoIJogCu0G2siY92" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Files\Programs\OpenServer\OpenServer\domains\diit\assets\images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec8dabe2-0072-49d5-9352-2204f4c11688" name="Default Changelist" comment="" />
+      <created>1613590642207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613590642207</updated>
+      <workItem from="1613590643278" duration="861000" />
+      <workItem from="1614523445367" duration="1390000" />
+      <workItem from="1614524918764" duration="2009000" />
+      <workItem from="1614527658257" duration="7000" />
+      <workItem from="1614714192210" duration="3936000" />
+      <workItem from="1614762008838" duration="1093000" />
+      <workItem from="1614871487805" duration="1935000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Deployment" timestamp="1614873342260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1614873342260" />
+    <state x="568" y="15" key="CommitChangelistDialog2" timestamp="1614873352517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="15" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614873352517" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1614873170185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614873170185" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1614873063729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614873063729" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614873236219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614873236219" />
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614873367332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614873367332" />
+  </component>
+</project>
