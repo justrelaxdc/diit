@@ -19,7 +19,6 @@ $( document ).ready(function() {
 		loop: true,
 		margin: 0,
 		nav: true,
-		navText: ["<img src='assets/images/arrow-left.png'>","<img src='assets/images/arrow-right.png'>"],
 		dots: false,
 		item: 1,
 		responsive:{
