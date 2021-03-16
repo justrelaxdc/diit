@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
 </head>
 <body>
+<a id="button-up"></a>
 <div class="wrapper">
     <header class="transparent">
         <div class="container">
@@ -28,16 +29,16 @@
                 </div>
                 <div class="col-md-8">
                     <ul class="menu">
-                        <li><a href="#advantages">Переваги</a></li>
-                        <li><a href="#aboutUs">Про нас</a></li>
-                        <li><a href="#plan">Тарифний план</a></li>
-                        <li><a href="#plan">Відгуки</a></li>
+                        <li><a class="i18n" href="#advantages">Переваги</a></li>
+                        <li><a class="i18n" href="#aboutUs">Про нас</a></li>
+                        <li><a class="i18n" href="#plan">Тарифний план</a></li>
+                        <li><a class="i18n" href="#plan">Відгуки</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2">
                     <div class="lang-btn">
-                        <a href="/" class="active">UA</a>
-                        <a href="/en">EN</a>
+                        <span class="lang-click" id="lang-ua">UA</span>
+                        <span class="lang-click" id="lang-en">EN</span>
                     </div>
                 </div>
             </div>
@@ -52,12 +53,12 @@
                         <a href="/index.html"><img src="./assets/images/logo-light.png" alt="logo"></a>
                     </div><!--logo-->
                     <ul class="menu panel-group" id="accordion" aria-multiselectable="true">
-                        <li><a href="/index.html">Головна</a></li>
-                        <li><a href="https://status.osmp.ga/">Статус хостингу</a></li>
-                        <li><a href="https://my.osmp.ga/reviews/">Відгуки</a></li>
+                        <li><a class="i18n" href="/index.html">Головна</a></li>
+                        <li><a class="i18n" href="https://status.osmp.ga/">Статус хостингу</a></li>
+                        <li><a class="i18n" href="https://my.osmp.ga/reviews/">Відгуки</a></li>
                     </ul><!--menu-->
                     <div class="button-header">
-                        <<a href="https://my.osmp.ga/" class="custom-btn">Online-чат</a>
+                        <a href="https://my.osmp.ga/" class="custom-btn i18n">Online-чат</a>
                     </div><!--button-header-->
                 </div><!--inside-->
             </div><!--mobile-menu-->
@@ -67,17 +68,17 @@
         <div class="item">
             <img src="./assets/images/slider-light.svg" alt="slider">
             <div class="inside">
-                <h2>GameShield - Надійний хостинг від професіоналів!</h2>
-                <p>MTA, SAMP, Minecraft, CRMP, Counter-Strike, GTA 5 та ін.</p>
-                <a href="https://my.osmp.ga/" class="custom-btn">Дізнатись більше</a>
+                <h2 class="i18n">GameShield - Надійний хостинг від професіоналів!</h2>
+                <p class="i18n">MTA, SAMP, Minecraft, CRMP, Counter-Strike, GTA 5 та ін.</p>
+                <a href="https://my.osmp.ga/" class="custom-btn i18n">Дізнатись більше</a>
             </div><!--inside-->
         </div>
         <div class="item first">
             <img src="./assets/images/back1.png" alt="slider">
             <div class="inside">
-                <h2>GameShield - Надсучасні методи захисту!</h2>
-                <p>Витримаємо будь-яку DDOS атаку і забеспечимо стабільність вашого сервера.</p>
-                <a href="https://my.osmp.ga/" class="custom-btn">Дізнатись більше</a>
+                <h2 class="i18n">GameShield - Надсучасні методи захисту!</h2>
+                <p class="i18n">Витримаємо будь-яку DDOS атаку і забеспечимо стабільність вашого сервера.</p>
+                <a href="https://my.osmp.ga/" class="custom-btn i18n">Дізнатись більше</a>
             </div><!--inside-->
         </div>
     </div>
@@ -90,21 +91,21 @@
                                         alt="DDoS Protection Powered by DDoS-GUARD" border="0" width="329" height="76"/></a>
                 <!-- DDoS-GUARD.net banner-->
             </center>
-            <p>Наша хостинг-компанія не дасть вашим конкурентам атакувать вас!</p>
+            <p class="i18n">Наша хостинг-компанія не дасть вашим конкурентам атакувать вас!</p>
             <div class="advantages-container container">
                 <div class="row">
                     <div class="security animated bounceInRight delay-250 col-md-6">
                         <img src="./assets/images/security-light.svg" alt="security-light">
                         <div class="text">
-                            <h4>Захист від DDoS Атак</h4>
-                            <p>Захищаємо ігрові сервери від DDoS-атак всіх типів</p>
+                            <h4 class="i18n">Захист від DDoS Атак</h4>
+                            <p class="i18n">Захищаємо ігрові сервери від DDoS-атак всіх типів</p>
                         </div>
                     </div>
                     <div class="security animated bounceInRight delay-250 col-md-6">
                         <img style="width: 50px;" src="./assets/images/reliability.svg" alt="security-light">
                         <div class="text">
-                            <h4>Надійність</h4>
-                            <p>Регулярні авматичні Бекапи, резервне живлення та команда профессіоналів</p>
+                            <h4 class="i18n">Надійність</h4>
+                            <p class="i18n">Регулярні автоматичні Бекапи, резервне живлення та команда профессіоналів</p>
                         </div>
                     </div>
                 </div>
@@ -112,15 +113,15 @@
                     <div class="security animated bounceInRight delay-250 col-md-6">
                         <img style="width: 50px;" src="./assets/images/decision.svg" alt="security-light">
                         <div class="text">
-                            <h4>Індивідуальний підхід</h4>
-                            <p>Зробимо ідеальні налаштування, саме так, як хочете Ви!</p>
+                            <h4 class="i18n">Індивідуальний підхід</h4>
+                            <p class="i18n">Зробимо ідеальні налаштування, саме так, як хочете Ви!</p>
                         </div>
                     </div>
                     <div class="security animated bounceInRight delay-250 col-md-6">
                         <img style="width: 50px;" src="./assets/images/customer-service.svg" alt="security-light">
                         <div class="text">
-                            <h4>Цілодобова підтримка</h4>
-                            <p>Сталася халепа? Ми поряд!</p>
+                            <h4 class="i18n">Цілодобова підтримка</h4>
+                            <p class="i18n">Сталася халепа? Ми поряд!</p>
                         </div>
                     </div>
                 </div>
@@ -129,24 +130,24 @@
     </div>
     <div class="container animatedParent">
         <div class="info-pricing animated growIn">
-            <h4>Чому саме GameShield?</h4>
+            <h4 class="i18n">Чому саме GameShield?</h4>
             <ul>
                 <li>
-                    <h6>Якість серверів</h6>
-                    <p>Безперервна робота серверів та резервування даних гарантнують стабільність та надійність.</p>
+                    <h6 class="i18n">Якість серверів</h6>
+                    <p class="i18n">Безперервна робота серверів та резервування даних гарантнують стабільність та надійність.</p>
                 </li>
                 <li class="right">
-                    <h6>Зручная система оплати</h6>
-                    <p>Наші послуги можна оплатити усіма доступними електронними засобами.</p>
+                    <h6 class="i18n">Зручная система оплати</h6>
+                    <p class="i18n">Наші послуги можна оплатити усіма доступними електронними засобами.</p>
                 </li>
             </ul>
             <ul class="right">
                 <li>
-                    <h6>Невгамовна швидкість!</h6>
-                    <p>Гравці обов'язково оцінять швидкодію завантаження та відклику сервера.</p>
+                    <h6 class="i18n">Невгамовна швидкість!</h6>
+                    <p class="i18n">Гравці обов'язково оцінять швидкодію завантаження та відклику сервера.</p>
                 </li>
                 <li class="button right">
-                    <a href="https://my.osmp.ga/buy" class="custom-btn">Перейти до заказу</a>
+                    <a href="https://my.osmp.ga/buy" class="custom-btn i18n">Перейти до заказу</a>
                 </li>
             </ul>
         </div>
@@ -154,15 +155,10 @@
     <div class="container-fluid block-features animatedParent" id="aboutUs">
         <div class="row">
             <div class="col-md-6 col-5">
-                <h3 class="animated bounceInUp delay-250">Трохи про нас</h3>
-                <p class="animated bounceInUp delay-250"> Компанія GameShield предоставляє послуги ігрового хостингу,
-                    його можно класифікувати як хостинг ігрових серверів – це розміщення і запуск ігрового серверу, на
-                    потугах нашої платформи, яка є апаратним і програмним комплексом послуг. Апаратна частина — це
-                    обладнання, на якому процює все програмне забеспечення, тобто сайт, панель управління і управління
-                    ігровим сервером.
-                <h3 class="animated bounceInUp delay-750">Інтеграція</h3>
-                <p class="animated bounceInUp delay-750">Наша хостинг-компанія вже возаємодіє з багатьма корпоративними
-                    гігантами і представляє широкий спектр додаткових послуг та інтеграцій на будь-який смак!</p>
+                <h3 class="animated bounceInUp delay-250 i18n">Трохи про нас</h3>
+                <p class="animated bounceInUp delay-250 i18n">Компанія GameShield предоставляє послуги ігрового хостингу, його можно класифікувати як хостинг ігрових серверів – це розміщення і запуск ігрового серверу, на потугах нашої платформи, яка є апаратним і програмним комплексом послуг. Апаратна частина — це обладнання, на якому процює все програмне забеспечення, тобто сайт, панель управління і управління ігровим сервером.</p>
+                <h3 class="animated bounceInUp delay-750 i18n">Інтеграція</h3>
+                <p class="animated bounceInUp delay-750 i18n">Наша хостинг-компанія вже возаємодіє з багатьма корпоративними гігантами і представляє широкий спектр додаткових послуг та інтеграцій на будь-який смак!</p>
             </div>
             <div class="col-md-5 text-left animated bounceInRight">
                 <img src="./assets/images/server-block.svg" alt="server-block">
@@ -173,106 +169,106 @@
     <!--===================== Info Plans ========================-->
     <div class="info-plans animatedParent" id="plan">
         <div class="container">
-            <h2 class="title-head">Тарифні плани</h2>
-            <p>Наші ціни доступні кожному..</p>
-            <table class="animated growIn">
+            <h2 class="title-head i18n">Тарифні плани</h2>
+            <p class="i18n">Наші ціни доступні кожному..</p>
+            <table class="animated growIn i18n">
                 <thead>
                 <tr>
-                    <td class="text-left">Тарифи</td>
-                    <td>Модуль - 1 Lite, PRO</td>
-                    <td>Модуль - 2 Premium</td>
-                    <td>Модуль - 3 FREE</td>
+                    <td class="text-left i18n">Тарифи</td>
+                    <td class="i18n">Модуль - 1 Lite, PRO</td>
+                    <td class="i18n">Модуль - 2 Premium</td>
+                    <td class="i18n">Модуль - 3 FREE</td>
                 </tr>
                 </thead>
                 <tr>
-                    <td class="text-left background">CPU</td>
-                    <td class="background">от 25%</td>
-                    <td class="background">100%</td>
-                    <td class="background">от 15%</td>
+                    <td class="text-left background i18n">CPU</td>
+                    <td class="background i18n">от 25%</td>
+                    <td class="background i18n">100%</td>
+                    <td class="background i18n">от 15%</td>
                 </tr>
                 <tr>
-                    <td class="text-left">Сховище SSD</td>
-                    <td>150 MB</td>
-                    <td>2 GB</td>
-                    <td>50 GB</td>
+                    <td class="text-left i18n">Сховище SSD</td>
+                    <td class="i18n">150 MB</td>
+                    <td class="">2 GB</td>
+                    <td class="i18n">50 GB</td>
                 </tr>
                 <tr>
-                    <td class="text-left background">RAM</td>
-                    <td class="background">256 MB</td>
-                    <td class="background">1 GB</td>
-                    <td class="background">100 MB</td>
+                    <td class="text-left background i18n">RAM</td>
+                    <td class="background i18n">256 MB</td>
+                    <td class="background i18n">1 GB</td>
+                    <td class="background i18n">100 MB</td>
                 </tr>
                 <tr class="offset-inside">
-                    <td class="text-left"><b>Сервер</b></td>
+                    <td class="text-left"><b class="i18n">Сервер</b></td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="text-left background">Ubuntu</td>
+                    <td class="text-left background i18n">Ubuntu</td>
                     <td class="background"><img src="./assets/images/done.png" alt="done"></td>
                     <td class="background"><img src="./assets/images/done.png" alt="done"></td>
                     <td class="background"><img src="./assets/images/done.png" alt="done"></td>
                 </tr>
                 <tr>
-                    <td class="text-left">Windows Server 2021</td>
+                    <td class="text-left i18n">Windows Server 2021</td>
                     <td><img src="./assets/images/done.png" alt="done"></td>
                     <td><img src="./assets/images/done.png" alt="done"></td>
                     <td><img src="./assets/images/done.png" alt="done"></td>
                 </tr>
                 <tr class="offset-inside">
-                    <td class="text-left"><b>Пітримка</b></td>
+                    <td class="text-left i18n"><b>Пітримка</b></td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="text-left background">Телефонна Пітримка</td>
+                    <td class="text-left background i18n">Телефонна Пітримка</td>
                     <td class="background">-</td>
                     <td class="background"><img src="./assets/images/done.png" alt="done"></td>
                     <td class="background"><img src="./assets/images/done.png" alt="done"></td>
                 </tr>
                 <tr>
-                    <td class="text-left">Живий чат</td>
+                    <td class="text-left i18n">Живий чат</td>
                     <td><img src="./assets/images/done.png" alt="done"></td>
                     <td><img src="./assets/images/done.png" alt="done"></td>
                     <td><img src="./assets/images/done.png" alt="done"></td>
                 </tr>
                 <tr class="offset-inside">
-                    <td class="text-left"><b>Більше особливостей</b></td>
+                    <td class="text-left"><b class="i18n">Більше особливостей</b></td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="text-left background">Особливості 1</td>
-                    <td class="background">100 Mbps</td>
-                    <td class="background">100 Mbps</td>
-                    <td class="background">100 Mbps</td>
+                    <td class="text-left background i18n">Особливості 1</td>
+                    <td class="background i18n">100 Mbps</td>
+                    <td class="background i18n">100 Mbps</td>
+                    <td class="background i18n">100 Mbps</td>
                 </tr>
                 <tr>
-                    <td class="text-left">Особливості 2</td>
+                    <td class="text-left i18n">Особливості 2</td>
                     <td>-</td>
                     <td>-</td>
                     <td><img src="./assets/images/done.png" alt="done"></td>
                 </tr>
                 <tr class="offset-inside">
-                    <td class="text-left"><b>Ціна</b></td>
+                    <td class="text-left"><b class="i18n">Ціна</b></td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="text-left background">Місячно</td>
-                    <td class="background">80$/Місяць</td>
-                    <td class="background">80$/Місяць</td>
-                    <td class="background">80$/Місяць</td>
+                    <td class="text-left background i18n">Місячно</td>
+                    <td class="background i18n">80$/Місяць</td>
+                    <td class="background i18n">80$/Місяць</td>
+                    <td class="background i18n">80$/Місяць</td>
                 </tr>
                 <tr>
-                    <td class="text-left">Оплата</td>
-                    <td>27.50$/Місяць</td>
-                    <td>201.50$/Місяць</td>
-                    <td>БЕЗКОШТОВНО</td>
+                    <td class="text-left i18n">Оплата</td>
+                    <td class="i18n">27.50$/Місяць</td>
+                    <td class="">201.50$/Місяць</td>
+                    <td class="i18n">БЕЗКОШТОВНО</td>
                 </tr>
             </table>
         </div>
@@ -280,20 +276,20 @@
     <footer>
         <div class="container">
             <div class="widget-footer">
-                <a href="#advantages">Переваги</a>
+                <a href="#advantages" class="i18n">Переваги</a>
             </div><!--widget-footer-->
             <div class="widget-footer">
-                <a href="#aboutUs">Про нас</a>
+                <a href="#aboutUs" class="i18n">Про нас</a>
             </div><!--widget-footer-->
             <div class="widget-footer">
-                <a href="#plan">Тарифний план</a>
+                <a href="#plan" class="i18n">Тарифний план</a>
             </div><!--widget-footer-->
             <div class="widget-footer">
-                <a href="#plan">Відгуки</a>
+                <a href="#plan" class="i18n">Відгуки</a>
             </div><!--widget-footer-->
             <div class="widget-footer last">
                 <a href="index.html"><img src="./assets/images/logo-light.png" alt="logo.png"></a>
-                <p>Ми тут!</p>
+                <p class="i18n">Ми тут!</p>
                 <ul class="social-icon">
                     <li><a href="https://vk.com/my.gameshield"><i class="fa fa-vk"></i></a></li>
                     <li><a href="https://www.facebook.com/groups/my.gameshield"><i class="fa fa-facebook"></i></a></li>
@@ -324,6 +320,153 @@
         data-moreinfo="https://my.gameshield.ga/ru/privacy.html"
         data-linkmsg="Соглашение"
         data-close-text="Я понял!">
+</script>
+
+<script>
+    function getCookie(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
+    }
+
+    function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+
+    const LANG = getCookie("lang");
+    if (LANG && LANG === "EN") {
+        $("#lang-en").addClass("active");
+    } else {
+        $("#lang-ua").addClass("active");
+    }
+
+    const DICTIONARY = [
+        ["Про нас", "About us"],
+        ["Переваги", "Advantages"],
+        ["Тарифний план", "Tariff plan"],
+        ["Відгуки", "Reviews"],
+        ["GameShield - Надійний хостинг від професіоналів!", "GameShield - Reliable hosting from professionals!"],
+        ["MTA, SAMP, Minecraft, CRMP, Counter-Strike, GTA 5 та ін.", "MTA, SAMP, Minecraft, CRMP, Counter-Strike, GTA 5 and more."],
+        ["Дізнатись більше", "Learn more"],
+        ["Наша хостинг-компанія не дасть вашим конкурентам атакувать вас!", "Our hosting company will not let your competitors attack you!"],
+        ["Захист від DDoS Атак", "DDoS Protection Attacks"],
+        ["Захищаємо ігрові сервери від DDoS-атак всіх типів", "We protect game servers from DDoS attacks of all types"],
+        ["Надійність", "Reliability"],
+        ["Регулярні автоматичні Бекапи, резервне живлення та команда профессіоналів", "Regular automatic backups, backup power and a team of professionals"],
+        ["Індивідуальний підхід", "Individual approach"],
+        ["Зробимо ідеальні налаштування, саме так, як хочете Ви!", "Let's make the perfect settings, just the way you want!"],
+        ["Цілодобова підтримка", "Round-the-clock support"],
+        ["Сталася халепа? Ми поряд!", "Happened? We are close!"],
+        ["Чому саме GameShield?", "Why GameShield?"],
+        ["Якість серверів", "Server quality"],
+        ["Безперервна робота серверів та резервування даних гарантнують стабільність та надійність.", "Continuous server operation and data redundancy guarantee stability and reliability."],
+        ["Невгамовна швидкість!", "Relentless speed!"],
+        ["Зручная система оплати", "Convenient payment system"],
+        ["Наші послуги можна оплатити усіма доступними електронними засобами.", "Our services can be paid for by all available electronic means."],
+        ["Перейти до заказу", "Go to order"],
+        ["Гравці обов'язково оцінять швидкодію завантаження та відклику сервера.", "Players are sure to appreciate the speed of loading and responding to the server."],
+        ["Трохи про нас", "A little about us"],
+        ["Компанія GameShield предоставляє послуги ігрового хостингу, його можно класифікувати як хостинг ігрових серверів – це розміщення і запуск ігрового серверу, на потугах нашої платформи, яка є апаратним і програмним комплексом послуг. Апаратна частина — це обладнання, на якому процює все програмне забеспечення, тобто сайт, панель управління і управління ігровим сервером.", "GameShield provides game hosting services, it can be classified as hosting of game servers - it is the placement and launch of a game server, based on the capabilities of our platform, which is a hardware and software package of services. Hardware is the hardware on which all the software runs, ie the site, control panel and game server management."],
+        ["Інтеграція", "Integration"],
+        ["Наша хостинг-компанія вже возаємодіє з багатьма корпоративними гігантами і представляє широкий спектр додаткових послуг та інтеграцій на будь-який смак!", "Our hosting company already interacts with many corporate giants and offers a wide range of additional services and integrations for every taste!"],
+        ["Тарифні плани", "Tariff plans"],
+        ["Наші ціни доступні кожному..", "Our prices are available to everyone.."],
+        ["Ми тут!", "We are here!"],
+        ["Тарифи", "Tariffs"],
+        ["Сервер", "Server"],
+        ["Пітримка", "Support"],
+        ["Більше особливостей", "More features"],
+        ["Ціна", "Price"],
+        ["от 25%", "from 25%"],
+        ["от 15%", "from 15%"],
+        ["Сховище SSD", "SSD storage"],
+        ["80$/Місяць", "$80 / Month"],
+        ["Особливості 1", "Features 1"],
+        ["Особливості 2", "Features 2"],
+        ["Місячно", "Monthly"],
+        ["Оплата", "Payment"],
+        ["Модуль - 1 Lite, PRO", "Module - 1 Lite, PRO"],
+        ["Модуль - 2 Premium", "Module - 2 Lite, Premium"],
+        ["Модуль - 3 FREE", "Module - 3 Lite, FREE"],
+        ["БЕЗКОШТОВНО", "FREE"],
+        ["27.50$/Місяць", "27.50$/Month"],
+        ["201.50$/Місяць", "201.50$/Month"],
+        ["GameShield - Надсучасні методи захисту!", "GameShield - State-of-the-art protection methods!"],
+        ["Витримаємо будь-яку DDOS атаку і забеспечимо стабільність вашого сервера.", "We will withstand any DDOS attack and ensure the stability of your server."],
+    ]
+
+    function translatePage(lang) {
+        let from = 0, to = 1;
+
+        if (lang === "EN") {
+            from = 1;
+            to = 0;
+        }
+
+        $('.i18n').each(function () {
+            var text = $(this).text(), translated;
+
+            for (let i in DICTIONARY) {
+                if (DICTIONARY[i][to] === text) {
+                    translated = DICTIONARY[i][from];
+                }
+            }
+
+            if (translated) {
+                $(this).text(translated);
+            }
+        });
+
+        // let html = document.body.innerHTML;
+        // for (let i in DICTIONARY) {
+        //     html = html.replace(new RegExp(DICTIONARY[i][to], "g"), DICTIONARY[i][from]);
+        // }
+        // document.html(html);
+    }
+
+    $(document).ready(function () {
+        $(document).on("click", ".lang-click", function (e) {
+            $(".lang-click").removeClass("active");
+            $(e.target).addClass("active");
+
+            let text = e.target.innerText;
+            setCookie("lang", text, 30)
+            translatePage(text)
+        });
+        translatePage(LANG);
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        var btn = $('#button-up');
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({scrollTop: 0}, '300');
+        });
+    });
 </script>
 </body>
 </html>
