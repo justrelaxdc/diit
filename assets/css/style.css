@@ -3360,3 +3360,55 @@ footer {
 .show{
   opacity: 1 !important;
 }
+
+
+
+
+
+.reviews-wrapper{
+  padding: 60px 0;
+}
+
+.review-block-container{
+  padding: 20px;
+  width: 330px;
+  height: 400px;
+  box-shadow: 4px 4px 3px 0 rgba(34, 60, 80, 0.1);
+  background: #f6fafd;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.review-name{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.review-image{
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.about-author-wrapper{
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.about-author h4{
+  margin-bottom: 20px;
+}
+
+.about-author p{
+  line-height: 32px;
+  margin-bottom: 10px;
+}

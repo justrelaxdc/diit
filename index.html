@@ -32,7 +32,7 @@
                         <li><a class="i18n" href="#advantages">Переваги</a></li>
                         <li><a class="i18n" href="#aboutUs">Про нас</a></li>
                         <li><a class="i18n" href="#plan">Тарифний план</a></li>
-                        <li><a class="i18n" href="#plan">Відгуки</a></li>
+                        <li><a class="i18n" href="#reviews">Відгуки</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2">
@@ -273,6 +273,46 @@
             </table>
         </div>
     </div>
+    <div id="reviews" class="reviews-wrapper">
+        <div class="container reviews">
+            <div class="reviews-slider owl-carousel owl-theme">
+                <div class="item">
+                    <div class="review-block-container">
+                        <img src="./assets/images/view-1.png" class="review-image" alt="1">
+                        <div class="review-name i18n">Олександр</div>
+                        <div class="review-text i18n">Чудова хостинг-компанія, яка має швидку та клалифіковану клієнську підтримку, виручали не один раз!</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review-block-container">
+                        <img src="./assets/images/view-2.png" class="review-image" alt="1">
+                        <div class="review-name i18n">Наталія</div>
+                        <div class="review-text i18n">Рєстрація та налаштування серверу зайняло не більше 15 хвилин, у панелі зручний інтерфейс з багатим функціоналом, дуже легко користуватися.</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review-block-container">
+                        <img src="./assets/images/view-3.png" class="review-image" alt="1">
+                        <div class="review-name i18n">Артем</div>
+                        <div class="review-text i18n">Важко не оцінити стабільність та швидкість серверів, за такі гроші отримати мінімальну затримку і ще й захист від DDOS, вражає!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-author-wrapper">
+        <div class="container about-author">
+            <div class="col-md-4">
+                <img src="./assets/images/me.jpg" alt="">
+            </div>
+            <div class="col-md-8">
+                <h4 class="i18n">Про автора</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis deleniti est, fuga, id ipsam minima nisi numquam quaerat, quo rerum sapiente veritatis! Aperiam autem cum esse explicabo inventore maiores?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis deleniti est, fuga, id ipsam minima nisi numquam quaerat, quo rerum sapiente veritatis! Aperiam autem cum esse explicabo inventore maiores?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis deleniti est, fuga, id ipsam minima nisi numquam quaerat, quo rerum sapiente veritatis! Aperiam autem cum esse explicabo inventore maiores?</p>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="container">
             <div class="widget-footer">
@@ -285,7 +325,7 @@
                 <a href="#plan" class="i18n">Тарифний план</a>
             </div><!--widget-footer-->
             <div class="widget-footer">
-                <a href="#plan" class="i18n">Відгуки</a>
+                <a href="#reviews" class="i18n">Відгуки</a>
             </div><!--widget-footer-->
             <div class="widget-footer last">
                 <a href="index.html"><img src="./assets/images/logo-light.png" alt="logo.png"></a>
@@ -399,6 +439,14 @@
         ["201.50$/Місяць", "201.50$/Month"],
         ["GameShield - Надсучасні методи захисту!", "GameShield - State-of-the-art protection methods!"],
         ["Витримаємо будь-яку DDOS атаку і забеспечимо стабільність вашого сервера.", "We will withstand any DDOS attack and ensure the stability of your server."],
+        ["Про автора", "About author"],
+        ["Олександр", "Alexander"],
+        ["Наталія", "Natalia"],
+        ["Артем", "Artem"],
+        ["Чудова хостинг-компанія, яка має швидку та клалифіковану клієнську підтримку, виручали не один раз!", "A great hosting company that has fast and qualified customer support has been rescued more than once!"],
+        ["Рєстрація та налаштування серверу зайняло не більше 15 хвилин, у панелі зручний інтерфейс з багатим функціоналом, дуже легко користуватися.", "Registration and configuration of the server took no more than 15 minutes, the panel has a user-friendly interface with rich functionality, very easy to use."],
+        ["Важко не оцінити стабільність та швидкість серверів, за такі гроші отримати мінімальну затримку і ще й захист від DDOS, вражає!", "It is difficult not to assess the stability and speed of servers, for such money to get a minimum delay and also protection against DDOS, impressive!"],
+        ["text", "Text"],
     ]
 
     function translatePage(lang) {
@@ -466,6 +514,24 @@
             e.preventDefault();
             $('html, body').animate({scrollTop: 0}, '300');
         });
+
+
+        $('.reviews-slider').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
     });
 </script>
 </body>
