@@ -1,4 +1,4 @@
 User-agent: *
-Host: gameshield.ga
-#gameshield
-Sitemap: https://gameshield.ga/sitemap.xml
+Host: justrelaxdc.github.io
+Disallow:
+Sitemap: https://justrelaxdc.github.io/diit/sitemap.xml
