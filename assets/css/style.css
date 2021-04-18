@@ -3398,6 +3398,15 @@ footer {
 
 
 
+.banner-ddos{
+  text-align: center;
+}
+
+.ddos-a{
+  border: 0;
+}
+
+
 
 .about-author-wrapper{
   padding: 10px 0;
