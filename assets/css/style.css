@@ -3562,7 +3562,16 @@ footer {
 
 
 
-
+#show-rick-morty{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #080808;
+  text-align: center;
+  padding: 5px 10px;
+}
 
 
 canvas {

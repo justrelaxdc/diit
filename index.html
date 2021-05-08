@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/light.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
 </head>
+<div id="show-rick-morty">Случайный персонаж Рик и Морти</div>
 <body>
 
 <canvas id=c></canvas>
@@ -566,6 +567,12 @@
                 }
             }
         })
+    });
+
+    $("#show-rick-morty").on('click', function (e) {
+        $.get("https://rickandmortyapi.com/api/character/", function (data) {
+            console.log(data);
+        });
     });
 </script>
 </body>
