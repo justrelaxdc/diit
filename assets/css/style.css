@@ -3563,14 +3563,17 @@ footer {
 
 
 #show-rick-morty{
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   left: 10px;
+  z-index: 100;
+  cursor: pointer;
   border-radius: 5px;
   background-color: #fff;
   color: #080808;
   text-align: center;
-  padding: 5px 10px;
+  padding: 10px 15px;
+  box-shadow: 0 0 8px 0 rgb(34 60 80 / 10%);
 }
 
 

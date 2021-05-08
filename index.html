@@ -570,8 +570,19 @@
     });
 
     $("#show-rick-morty").on('click', function (e) {
+        var RM;
+        alert("Получаем данные с сайта rickandmortyapi.com. Ожидайте 3 секунды");
+        setTimeout(() => {
+                if(RM && RM.results && RM.results.length > 0){
+                    var name = RM.results[Math.floor(Math.random() * RM.results.length)].name;
+                    alert("Случайный персонаж: " + name);
+                }else{
+                    alert("Не удалось получить данные.")
+                }
+            },
+            3000);
         $.get("https://rickandmortyapi.com/api/character/", function (data) {
-            console.log(data);
+            RM = data;
         });
     });
 </script>
